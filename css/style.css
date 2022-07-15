@@ -1,0 +1,134 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+    width: 100%;
+}
+
+.theme-light {
+    --text-color: #333333;
+    --bg-color: #E9F4FA;
+    --bg-form-color: #FFFFFF;
+}
+
+.theme-dark {
+    --text-color: #E9F4FA;
+    --bg-color: #0D1C24;
+    --bg-form-color: #293943;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.theme-light-dark{
+    padding: 4% 5%;
+    text-align: right;
+}
+.theme-light-dark img{
+    max-width: 50px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-menu{
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 70px;
+}
+
+.text-menu h1{
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.text-menu h2{
+    font-size: 1.6em;
+    font-weight: 800;
+}
+
+.content-calc{
+    width: 100%;
+    padding: 50px 30px 50px 30px;
+    background-color: var(--bg-form-color);
+    border-radius: 4px;
+
+}
+
+main{
+    margin-bottom: 100px;
+}
+.content-calc img{
+    margin-top: 10%;
+    max-width: 450px;
+}
+
+
+.form-calc{
+    position: relative;
+    text-align: center;
+}
+
+.form-calc label{
+    display: block;
+    font-size: 0.9375em;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.6;
+    margin-top: 20px;
+    text-align: left;
+    color: var(--text-color);
+}
+
+.form-calc input[type=text]{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #C0C0C0;
+    background-color: #F8F8F8;
+}
+
+.form-calc input[type=text]:read-only{
+    border: 1px solid #C0C0C0;
+    background-color: #EEEEEE;
+}
+
+.form-calc input[type=text]:focus{
+    box-shadow: 0px 0px 6px 4px rgba(79, 149, 255, .1);
+    border: 1px solid #4F95FF;
+    outline: 0;
+}
+
+
+.form-calc input[type=submit]{
+    width: 60%;
+    margin-top: 40px;
+    letter-spacing: 2;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #E9F4FA;
+    background-color: #4F95FF;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0;
+}
+
+footer{
+    background-color: #4F95FF;
+    padding: 15px;
+    text-align: center;
+    color:#E9F4FA;
+}
+
+footer p{
+    margin-top: 10px;
+}
