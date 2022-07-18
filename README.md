@@ -1,6 +1,6 @@
 # Calculadora triângulos pitagóricos
 
-Desafio cromai, criar uma calculadora para o filósofo <a href="https://www.todamateria.com.br/pitagoras/" target="_blank" rel="noopener noreferrer">pitágoras</a>!
+<p>Desafio cromai, criar uma calculadora para o filósofo <a href="https://www.todamateria.com.br/pitagoras/" target="_blank" rel="noopener noreferrer">pitágoras</a>!</p>
 
 :white_check_mark: Primeiro passo é fazer o layout do projeto.
 <br>
@@ -8,9 +8,11 @@ Desafio cromai, criar uma calculadora para o filósofo <a href="https://www.toda
 <br>
 :white_check_mark: Desenvolver uma API com Flask
 <br>
-:white_large_square: Subir API no Heroku
+:white_check_mark: Subir API no Heroku
 <br>
-:white_large_square: Fazer testes da aplicação
+:white_check_mark: Fazer testes da aplicação
+<br>
+<p> Link da api: https://api-calculadora-pitagoricos.herokuapp.com/hipotenusa/{parametro1}&{parametro2}
+<br>
 <br>
 <em>“A matemática é o alfabeto com o qual Deus escreveu o universo.”</em> Pitágoras
-
