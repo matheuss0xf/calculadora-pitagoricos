@@ -87,7 +87,7 @@ main{
     color: var(--text-color);
 }
 
-.form-calc input[type=text]{
+.form-calc input[type=number]{
     width: 100%;
     display: block;
     padding: 8px;
@@ -96,12 +96,12 @@ main{
     background-color: #F8F8F8;
 }
 
-.form-calc input[type=text]:read-only{
+.form-calc input[type=number]:read-only{
     border: 1px solid #C0C0C0;
     background-color: #EEEEEE;
 }
 
-.form-calc input[type=text]:focus{
+.form-calc input[type=number]:focus{
     box-shadow: 0px 0px 6px 4px rgba(79, 149, 255, .1);
     border: 1px solid #4F95FF;
     outline: 0;

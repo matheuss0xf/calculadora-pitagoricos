@@ -11,8 +11,8 @@
 
     <link rel="stylesheet" href="css/grid-css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js" defer></script>
 </head>
+<a href="http://" target="_blank" rel="noopener noreferrer"></a>
 <body class="theme-light">
     <div class="row m-0">
         <div class="col-md-12 theme-light-dark" id="themeDarkOrLight">
@@ -36,13 +36,13 @@
                 <img src="images/trian-pitagoras.svg" alt="Aqui tem uma imagem que representa um triângulo de pitágoras, onde o lado esquerdo A, parte inferior B são os catetos e o lado superior diagonal C igual hipotenusa">
             </article>
             <article class="col-md-6 form-calc">
-                <form action="" method="post">
+                <form action="" method="post" name="form_calc">
                     <label for="cateto1">Valor do cateto a: </label>
-                    <input type="text" name="cateto1" id="cateto1" required>
+                    <input type="number" name="cateto1" id="cateto1" required>
                     <label for="cateto2">Valor do cateto b: </label>
-                    <input type="text" name="cateto2" id="cateto2" required>
+                    <input type="number" name="cateto2" id="cateto2" required>
                     <label for="hipotenusa">Valor da hipotenusa: </label>
-                    <input type="text" name="hipotenusa" id="hipotenusa" readonly>
+                    <input type="number" name="hipotenusa" id="hipotenusa" readonly>
                     <input type="submit" id="calc" value="Calcular">
                 </form>
             </article>
@@ -54,5 +54,7 @@
         </div>
     </footer>
 
+    <script src="js/apiCalc.js" defer></script>
+    <script src="js/loadTheme.js" defer></script>
 </body>
 </html>
