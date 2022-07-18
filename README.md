@@ -6,12 +6,15 @@
 <br>
 :white_check_mark: Desenvolver o front-end ( HTML, CSS3 e Javascript)
 <br>
+:white_check_mark: Subir site no Github Pages
+<br>
 :white_check_mark: Desenvolver uma API com Flask
 <br>
 :white_check_mark: Subir API no Heroku
 <br>
 :white_check_mark: Fazer testes da aplicação
 <br>
+<p> Link github pages: https://matheuss0xf.github.io/calculadora-pitagoricos/ </p>
 <p> Link da api: https://api-calculadora-pitagoricos.herokuapp.com/hipotenusa/{parametro1}&{parametro2}
 <br>
 <br>
