@@ -1,7 +1,7 @@
 import math
 
 
-def calcularPitagoras(cateto1, cateto2):
+def calculatePitagoras(cateto1, cateto2):
     if type(cateto1) not in (int, float) or type(cateto2) not in (int, float):
         return False
     else:

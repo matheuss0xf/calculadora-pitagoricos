@@ -15,7 +15,9 @@ function showHipotenusa() {
 
         const hipotenusa = document.querySelector("#hipotenusa");
         hipotenusa.value = Number(
-            doGet(`URL_API/calculadora/${cateto1}&${cateto2}`)
+            doGet(
+                `https://api-calculadora-pitagoricos.herokuapp.com/hipotenusa/${cateto1}&${cateto2}`
+            )
         );
     });
 }
